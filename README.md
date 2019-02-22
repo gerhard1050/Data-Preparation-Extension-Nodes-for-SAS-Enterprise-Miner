@@ -36,7 +36,8 @@ Download the ZIP-file that contains the sources to install the extension nodes (
 
 ## Install under EM
 This text will be included into the document at a later point in time. It shall now quickly serve as hint, how to install unter EM.
-Also refer to the online documenation or the EM Extension Nodes Developers Guide
+Also refer to the online documenation or the [EM Extension Nodes Developers Guide](https://support.sas.com/documentation/cdl/en/emxndg/67980/PDF/default/emxndg.pdf)
+
 I tested the nodes in EM and they work.
 * Do you have a 32-bit or 64-bit machine? (the difference is with the sas-catalog that holds the macros, it differes between bit versions)? The download link on my website provides a 32 and 64 bit catalog, make sure that you use the right one.
 * In EM 7.1 there is a new way to make the nodes available: I followed the way described in the EM 7.1 EM Extension Nodes Developers Guide (see also below for an excerpt) and created a directory: “c:\goto\sas\em_extensionnodes” (you can use any name) and consequently my entry in the management console looks like: dminemd.components.extra.dir. = c:\goto\sas\em_extensionnodes.
@@ -51,7 +52,8 @@ SAS Code
 ## Server (EM Runs in Client Server Mode) Extensions (from the Developers Guide)
 For a server configuration, specify the location of the extensions folder by adding a definition in the SAS Management Console. To add a definition, follow the steps below.
 * Log on to the SAS Management Console as a SAS administrator.
-* On the Plug-ins tab, select Application Management Configuration Manager SAS Application Infrastructure. Right-click Enterprise Miner Mid-tier Services Properties.
+* On the Plug-ins tab, select Application Management Configuration Manager SAS Application Infrastructure. 
+* Right-click Enterprise Miner Mid-tier Services Properties.
 * On the Advanced tab, locate the property named dminemd.components.extra.dir. In the Property Value field, enter the directory path to your extensions folder.
 * Restart the SAS Enterprise Miner client to see the new node. There is no need to restart the middle-tier server.
 For more information about the extension tools and the EXT Demo node, see the SAS Enterprise Miner Help documentation.
