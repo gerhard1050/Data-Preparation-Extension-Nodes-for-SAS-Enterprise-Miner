@@ -1,3 +1,4 @@
+<img src='ExtensionNode_DataPrep_Large.jpg' align='right' height="400">
 # Data-Preparation-Extenstion-Nodes-for-SAS-Enterprise-Miner
 This page contains content of Extension Nodes for Data Preparation on Longitudinal Data for SAS Enterprise Miner 
 
@@ -12,6 +13,7 @@ At this page you will find two groups of extension nodes
 * Various extension nodes that I frequently use in SAS Enterprise Miner (GTOOLS)
 
 ## Extension Nodes for Data Preparation for Analytics
+<img src='ExtensionNodes_DataPrep_Small.jpg' align='top' height="50">
 Based the book Data Preparation for Analytics five node are supplied that allow to pre-process transactional data.
 Each node outputs the data in a one-row-per-subject data structure so that the data can be used for data mining
 The following nodes are available
@@ -22,6 +24,7 @@ The following nodes are available
 * Transpose from LONG to WIDE: Transpose a dataset from a multiple-row-per-subject structure into a one-row-per-subject structure
 
 ## Various Extension Nodes - GTOOLS
+<img src='ExtensionNodes_Gtools_small.jpg' align='top' height="50">
 These nodes are a collection of SAS Enterprise Miner Tools that I frequently use, as they seem helpful for me:
 * Target BarChart: Displays the relationship between an input variable and the target variables in a bar chart
 * Item-Relationship-Map: Displays the 2-way association rules in a hierarchical tree structure.
@@ -40,6 +43,7 @@ I tested the nodes in EM 7.1 and they work.
 * In directory I have all my GIF (in subsdirectories) and XML files.
 * The catalogs you can put directly into the SASHELP directory.
 * Alternatively you can put it to any SAS library, but you need to use a command like this in your EM - autoexec.sas or EM Project startup code to point EM to the right library.
+SAS Code
 
     libname extlib "C:\GOTO\SAS\EM_ExtensionNodes\SourceCode";
     catname sashelp.nodesbygerhard (extlib.nodesbygerhard);
