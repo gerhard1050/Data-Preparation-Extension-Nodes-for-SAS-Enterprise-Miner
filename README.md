@@ -1,8 +1,10 @@
 <img src='ExtensionNode_DataPrep_Large.jpg' align='right' height="400">
+
 # Data-Preparation-Extenstion-Nodes-for-SAS-Enterprise-Miner
+
 This page contains content of Extension Nodes for Data Preparation on Longitudinal Data for SAS Enterprise Miner 
 
-## Overivew
+## Overview
 Extension nodes for are a powerful tool to enhance the functionality of SAS Enterprise Miner.
 Basically you need only 3 things to create an extension node
 * A SAS macro that defines the functionaliy
