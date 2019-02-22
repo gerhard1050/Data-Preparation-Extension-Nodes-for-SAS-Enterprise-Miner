@@ -1,6 +1,6 @@
 <img src='ExtensionNode_DataPrep_Large.jpg' align='right' height="400">
 
-# Data-Preparation-Extenstion-Nodes-for-SAS-Enterprise-Miner
+# Data-Preparation-Extension-Nodes-for-SAS-Enterprise-Miner
 
 This page contains content of Extension Nodes for Data Preparation on Longitudinal Data for SAS Enterprise Miner 
 
